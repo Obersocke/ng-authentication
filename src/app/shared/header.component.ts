@@ -11,13 +11,13 @@ import { Component } from "@angular/core";
             <div class="collapse navbar-collapse">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a class="nav-link">Sign In</a>
+                  <a class="nav-link" [routerLink]="['signin']">Sign In</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">Sign Up</a>
+                  <a class="nav-link" [routerLink]="['signup']">Sign Up</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link">Protected</a>
+                  <a class="nav-link" [routerLink]="['protected']">Protected</a>
                 </li>
               </ul>
               <ul class="navbar-nav ml-auto">
